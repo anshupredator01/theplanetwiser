@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/semocircle"
+    android:layout_marginTop="30dp"
+    android:layout_marginLeft="20dp"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="150dp">
+
+    <ImageView
+        android:layout_width="403dp"
+        android:layout_height="320dp"
+        android:foregroundGravity="center"
+        android:background="@drawable/img"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="the planet\nwiser"
+        android:textSize="36dp"
+        android:textColor="#000000"
+        android:fontFamily="@font/bold"
+        android:layout_marginLeft="24dp"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="think before you trash it"
+        android:layout_marginLeft="24dp"
+        android:textSize="14dp"
+        android:layout_marginTop="10dp"
+        android:fontFamily="@font/light"
+        android:textColor="#000000"
+        />
+
+   <ImageView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:background="@drawable/rectanglularbar"
+       android:layout_marginTop="100dp"
+       android:layout_marginLeft="350dp"
+       />
+
+    </LinearLayout>
+</RelativeLayout>
